@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    color: black;
+    text-align: center;
+    background-color: white;
+    background-size: cover;
+}
+
+.top-wrapper span{
+    color: darkorange;
+}
+
+.top-wrapper h1{
+    font-size: 85px;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top-wrapper h2{
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.top-wrapper img{
+    width: 400px;
+    height: 400px;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 23px;
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-left a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    transition: all 0.5s;
+    float: left;
+}
+
+.header-left a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.biodata {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 80px;
+    height: 300px;
+}
+
+.text-biodata{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.text-biodata h1 {
+    margin-bottom: 30px;
+}
+
+.text-biodata p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #b3aeb5;
+    padding: 0 20px;
+}
+
+.proyek-wrapper{
+    height: 350px;
+    padding-bottom: 80px;
+    background-color: white;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2{
+    font-weight: normal;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.projects .proyek {
+    flex: 0 0 auto;
+    margin: 0 20px;
+}
+
+.proyek-icon img{
+    width: 150px;
+    height: 150px;
+}
+
+.proyek-icon p{
+    margin-top: 15px;
+}
+
+footer{
+    height: 105px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+}
+
+footer .logo{
+    color:#f7f7f7;
+}
+
+.header-right a {
+    color: #f7f7f7;
+    font-size: 16px;
+    padding: 0 10px;
+    display: grid;
+    line-height: 30px;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+footer .header-right{
+    float: right;
+}
+
+.contact-wrapper {
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-bottom: 80px;
+    height: 500px;
+}
+
+.formulir{
+    display: grid;
+    width:50%;
+    margin: 10px auto;
+}
+
+.formulir input, .formulir textarea{
+    margin: 10px 0 30px 0;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    font-family: 'Lucida Sans';
+} 
+
+.formulir .btn-submit{
+    background-color: rgb(229, 206, 37);
+    color:black;
+    width: 200px;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
+.formulir .btn-submit:hover {
+    background-color: rgb(189, 184, 29);
+}
